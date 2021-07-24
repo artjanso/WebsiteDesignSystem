@@ -1,0 +1,195 @@
+ /*full page*/
+html {
+    background-color: #C9C0BB; 
+    border: 10px solid rgb(131, 131, 131);
+    border-radius: 25px;
+    text-align: center;
+    width: 1000px;
+    margin: 50px auto 50px auto;
+
+}
+
+body {
+    background-color: rgb(226, 226, 222);
+    border-radius: 15px;
+    margin: 0;
+}
+/*main title*/
+h1 {
+    /* border: 1px solid black; */
+    text-align: center;
+    text-shadow: 2px 2px gray;
+    font-family: "Poppins";
+    font-size: 50px;
+    margin: 0px;
+}
+
+/*nav section*/
+nav ul{
+    border-top: 2px solid lightgray;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+nav ul li{
+    border: 2px solid black;
+    text-shadow: 0.5px 0.5px gray;
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 15px;
+    font-family: "Poppins";
+    width: 125px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    border: 2px solid #C9C0BB;
+    text-shadow: 0.5px 0.5px gray;
+    font-weight: bold;
+}
+
+/*second title*/
+#intro h2 {
+    border-top: 2px solid lightgray;
+    text-align: left;
+    padding: 0 15px;
+    font-family: "Poppins";
+    margin: 0;   
+}
+
+#intro span {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Poppins";
+    text-shadow: 0.5px 0.5px gray;
+}
+
+/*h3 heading adjustment*/
+#colors, #fonts, #rules  {
+    border-top: 2px solid lightgray;
+    margin: 10px 0px;
+    
+}
+
+/*color section adjustments*/
+#colors li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0.4px 0.4px black;
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+#colors #colone {
+    background-color: #C3CDE6;
+}
+
+#colors #coltwo {
+    background-color: #C9C0BB;
+}
+
+#colors #colthree {
+    background-color: #3AA8C1;
+}
+
+#colors #colfour {
+    background-color: #76D7EA;
+}
+
+#colors #colfive {
+    background-color: #CEC8EF;
+}
+
+h4 {
+    text-decoration: underline solid black;
+    font-size: 20px;
+}
+
+/*Font adjustment section*/
+.firstfont, .secondfont, .thirdfont, .forthfont, .fifthfont  {
+    border: 1px solid black;
+    border-radius: 15px;
+    display: inline-block;
+    width: 325px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.firstfont p {
+    font-family: "Roboto";
+    line-height: 1.6;
+}
+
+.secondfont p {
+    font-family: "Lato";
+    line-height: 1.6;
+} 
+
+.thirdfont p {
+    font-family: "Montserrat";
+    line-height: 1.6;
+} 
+
+.forthfont p {
+    font-family: "Poppins";
+    line-height: 1.6;
+} 
+    
+.fifthfont p {
+    font-family: "Encodo Sans SC";
+    line-height: 1.6;
+}
+
+.fontbold {
+    font-weight: bold;
+}
+
+.fontitalic {
+    font-style: italic;
+}
+
+/*Text style section*/ 
+#rules {
+    margin: 0;
+    text-align: left;
+    font-family: "Poppins";
+    padding: 0 15px;
+}
+
+#rules h3 {
+    margin: 0;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+#rules p {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 5px 0;
+}
+
+#rules ul {
+    margin-top: 2px;
+}
+
+#rules .lastone {
+    margin-bottom: 0;
+}
